@@ -3,7 +3,7 @@ import 'dart:io';
 import 'package:camera/camera.dart';
 
 sealed class CameraState {}
-final class CameraInitialState extends CameraState{}
+final class CameraInitial extends CameraState{}
 
 final class CameraReady extends CameraState{
   final CameraController controller;
